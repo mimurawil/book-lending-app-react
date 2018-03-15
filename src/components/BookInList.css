@@ -1,0 +1,67 @@
+.book-list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    margin: 10px 5%;
+    font-size: 1rem;
+}
+  
+.book-list .book-item {
+    border-bottom: 1px dotted gray;
+    padding-bottom: 10px;
+}
+  
+.book-list .book-item:last-child {
+    border-bottom: none;
+}
+  
+.book-list .book-title {
+    font-weight: 600;
+    color: #056CF2;
+    font-size: 1.3em;
+    line-height: 100%;
+}
+  
+.book-list .book-info {
+    font-size: 1.7em;
+}
+  
+.book-list .label-item {
+    font-weight: 600;
+    color: #667B82;
+}
+  
+.book-list .book-delete {
+    font-size: 1.2em;
+}
+  
+.book-list .publish-date {
+    font-style: italic;
+    margin-right: 5px;
+}
+
+.commands {
+    position: relative;
+    top: 10px;
+    color: #aaa;
+}
+.commands div {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    margin: 0 5px;
+	outline: none !important;
+	border: 0;
+}
+
+.commands p {
+    margin: 0;
+    position: relative;
+    bottom: 5px;
+    font-size: 0.6em;
+}
+
+.commands .allowed {
+    color: #5cb85c !important;
+}

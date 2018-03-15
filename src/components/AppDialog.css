@@ -1,0 +1,26 @@
+.dialog-content {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 5;
+    animation-name: dialogContainerAnimation;
+    animation-duration: 0.5s;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+@keyframes dialogContainerAnimation {
+    from { background-color: transparent; }
+      to { background-color: rgba(0, 0, 0, 0.5); }
+}
+
+.dialog-content > * {
+    animation-name: dialogContentAnimation;
+    animation-duration: 1s;
+}
+
+@keyframes dialogContentAnimation {
+      0% { transform: translateY(-1500px); }
+    100% { transform: translateY(0px); }
+}
