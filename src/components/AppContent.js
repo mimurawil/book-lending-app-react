@@ -29,7 +29,7 @@ export default class AppContent extends Component {
             bookList: []
         });
 
-        fetch(`https://3t6tc5pgwi.execute-api.us-west-2.amazonaws.com/dev/books`)
+        fetch(`https://YOUR-URL-API.REGION.amazonaws.com/dev/books`)
             .then(result => result.json())
             .then(data => this.setState({
                 bookList: data.Items,

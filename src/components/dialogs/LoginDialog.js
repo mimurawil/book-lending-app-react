@@ -44,7 +44,7 @@ export default class LoginDialog extends Component {
                 document.getElementById('loginUsername').focus();
             }
         };
-        client.open('POST', `https://lua78viydf.execute-api.us-west-2.amazonaws.com/dev/book-lending-api/authentication`);
+        client.open('POST', `https://YOUR-URL-API.REGION.amazonaws.com/dev/book-lending-api/authentication`);
         client.setRequestHeader('Content-Type', 'application/json');
         client.send(JSON.stringify({
             userName: username,
@@ -123,7 +123,7 @@ export default class LoginDialog extends Component {
                 });
             }
         };
-        client.open('POST', `https://lua78viydf.execute-api.us-west-2.amazonaws.com/dev/book-lending-api/registration`);
+        client.open('POST', `https://YOUR-URL-API.REGION.amazonaws.com/dev/book-lending-api/registration`);
         client.setRequestHeader('Content-Type', 'application/json');
         client.send(JSON.stringify({
             userName: username,

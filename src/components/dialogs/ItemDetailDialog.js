@@ -18,7 +18,7 @@ export default class ItemDetailDialog extends Component {
     callAPI = (path, id) => {
         let setThisState = value => this.setState(value);
         let handleClose = this.handleClose;
-        let url = `https://3t6tc5pgwi.execute-api.us-west-2.amazonaws.com/dev/${path}/${id}`;
+        let url = `https://YOUR-URL-API.REGION.amazonaws.com/dev/${path}/${id}`;
         let token = this.props.token;
         let client = new XMLHttpRequest();
         client.onload = function () {
