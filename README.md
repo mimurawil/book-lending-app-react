@@ -7,7 +7,7 @@ This repo is part of the tiny project/demo/portfolio for a **Super Simple Book L
 It is responsible for creating the graphical user interface, managing the API calls, and control user access in each action (borrow, reserve, return).
 
 ## How to install
-Assuming you already have [Create React App](https://github.com/facebookincubator/create-react-app), the following steps will explain how to install this project on your machine.
+Assuming you already have [Create React App](https://github.com/facebookincubator/create-react-app) and you already installed and deployed the repos [book-lending-app-auth](https://github.com/mimurawil/book-lending-app-auth) and [book-lending-app-api](https://github.com/mimurawil/book-lending-app-api), the following steps will explain how to install this project on your machine.
 
 1. Clone this repo
 2. Install the dependent modules
